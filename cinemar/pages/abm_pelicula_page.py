@@ -30,7 +30,7 @@ class App:
         self.nombreEntry["fg"] = "#333333"
         self.nombreEntry["justify"] = "center"
         self.nombreEntry["text"] = ""
-        self.nombreEntry.place(x=120,y=60,width=462,height=30)
+        self.nombreEntry.place(x=120,y=60,width=462,height=29)
 
         self.generoLabel=tk.Label(root)
         ft = tkFont.Font(family='Times',size=10)
